@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login App - Basic</title>
+	<!-- Font Awesome Icons - fontawesome.io  -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/main.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+	<section class="login">
+	<form>
+		<h2>Hello!</h2>
+		<h4>Please enter your name and password</h4>
+		<input id="username" placeholder="username">
+		<input id="password" placeholder="password"> <br><br>
+		<button type="button" onclick="getInfo()">Log In</button>
+	</form>
+	</section>
+
+	<section class="newuser">
+		<form>
+		<h2>Register</h2>
+		<input id="newUser">
+		<input id="newPassword"> 
+	<button type="button" onclick="registerUser()">Register</button>
+	</form>
+	</section>
+
+
+
+
+
+		<script src="js/main.js"></script>
+</body>
+</html>

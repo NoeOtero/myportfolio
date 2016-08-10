@@ -1,0 +1,143 @@
+body {
+	background-color: #002f2f;
+}
+.login {
+	width: 30%;
+	background-color: #08222E;
+	text-align: center;
+	border: 5px #00FEFE solid;
+	margin: 50px 500px;
+	margin-bottom: 0px;
+}
+.login h2, h4{
+	color: #D5F1FB;
+}
+.newuser {
+	margin-left: 500px;
+	width: 30%;
+}
+.newuser h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.newuser form{
+	text-align: center;
+}
+
+/*MEDIA QUERIES FOR SCREEN ADJUSTMENT*/
+@media (max-width: 1250px) {
+	.login{
+		width: 33%;
+		margin: 50px 400px;
+	}
+}
+@media (max-width: 1150px) {
+	.login{
+		width: 35%;
+		margin: 50px 300px;
+	}
+}
+@media (max-width: 1080px) {
+	.login{
+		width: 38%;
+		margin: 50px 250px;
+	}
+}
+@media (max-width: 1000px) {
+	.login{
+		width: 40%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 950px) {
+	.login{
+		width: 40%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 920px) {
+	.login{
+		width: 42%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 890px) {
+	.login{
+		width: 45%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 850px) {
+	.login{
+		width: 48%;
+		margin: 50px 150px;
+	}
+}
+@media (max-width: 800px) {
+	.login{
+		width: 48%;
+		margin: 50px 150px;
+	}
+	input {
+		width: 120px;
+	}
+}
+
+/*newusermediaqueries*/
+@media (max-width: 1250px) {
+	.newuser{
+		width: 33%;
+		margin: 50px 400px;
+	}
+}
+@media (max-width: 1150px) {
+	.newuser{
+		width: 35%;
+		margin: 50px 300px;
+	}
+}
+@media (max-width: 1080px) {
+	.newuser{
+		width: 38%;
+		margin: 50px 250px;
+	}
+}
+@media (max-width: 1000px) {
+	.newuser{
+		width: 40%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 950px) {
+	.newuser{
+		width: 40%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 920px) {
+	.newuser{
+		width: 42%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 890px) {
+	.newuser{
+		width: 45%;
+		margin: 50px 200px;
+	}
+}
+@media (max-width: 850px) {
+	.newuser{
+		width: 48%;
+		margin: 50px 150px;
+	}
+}
+@media (max-width: 800px) {
+	.newuser{
+		width: 48%;
+		margin: 50px 150px;
+	}
+	input {
+		width: 120px;
+	}
+}

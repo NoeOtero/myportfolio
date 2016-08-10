@@ -1,0 +1,25 @@
+form {
+	text-align: center;
+	border: 2px solid black;
+	margin: 50px 50px;
+	margin-right: 400px;
+	margin-left: 400px;
+}
+input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h1 {
+	text-align: center;
+	margin-top: 5px;
+}
+img {
+	padding-left: 440px;
+	bottom: 50px;
+
+}
+p {
+	text-align: center;
+	width: 50%;
+	margin-left: 350px;
+}
