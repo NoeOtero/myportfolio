@@ -1,0 +1,120 @@
+body {
+	background-color: #0D0D0D;
+}
+.logo {
+	width: 100%;
+	text-align: center;
+}
+.logo h1 {
+	padding-bottom: 30px;
+	font-family:'Trirong', serif;
+	color: #fff;
+}
+.logoBorder {
+	text-align: center;
+	height: 0px;
+	margin-left: 300px;
+	margin-right: 300px;
+	border-bottom: .5px solid #22DF21;
+	margin-bottom: 40px;
+}
+.nav {
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.nav ul {
+	padding-left: 0px;
+}
+.nav ul li {
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 1);
+	background-color: none;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: 'PT Serif', serif;
+}
+.nav ul li:hover {
+	background-color: #22DF21;
+	transition: 1s;
+}
+.slider-car {
+	padding-bottom: none;
+}
+/*start clothing thumbnail styling*/
+.apparel {
+	height: 750px;
+	background-color: #121212;	
+}
+.clothing1 {
+	padding-top: 50px;
+	text-align: center;
+}
+.shirt1 {
+	display: inline-block;
+}
+.shirt2 {
+	display: inline-block;
+	padding-left: 50px;
+}
+.shirt3 {
+	display: inline-block;
+	padding-left: 50px;
+}
+.shirt4 {
+	display: inline-block;
+	padding-left: 50px;
+}
+.clothing2 {
+	padding-top: 80px;
+	text-align: center;
+}
+.shirt5 {
+	display: inline-block;
+}
+.shirt6 {
+	display: inline-block;
+	padding-left: 50px;
+}
+.shirt7 {
+	display: inline-block;
+	padding-left: 50px;
+}
+.shirt8 {
+	display: inline-block;
+	padding-left: 50px;
+}
+
+
+/*End of Thumbnail Styling*/
+
+/*start footer - contact section*/
+.contact {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+.contact h1 {
+	color: #fff;
+	padding-bottom: 50px;
+}
+.email {
+	display: inline-block;
+	text-align: center;
+	padding-right: 50px;
+}
+.phone {
+	display: inline-block;
+	border: 
+	padding-left: 50px;
+}
+.facebook {
+	display: inline-block;
+	padding-left: 50px;
+}
+.instagram {
+	display: inline-block;
+	padding-left: 50px;
+}
